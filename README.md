@@ -21,7 +21,8 @@ Additional methods include utilizing binary form for computation and comparison,
 Regarding the method for testing primality, it is planned to incorporate AKS and other enhanced techniques based on existing algorithms in the near future, in addition to the Miller-Rabin method, with the aim of achieving superior outcomes.
 ## Choices of Solving
 After a brief summary of the problem and solving method, in this section I will discuss about why I choose them.
-- Integer format
+- Integer format: 
 The string library is a widely used built-in library in both Python and C++, making looping through strings a highly efficient process, and optimizing memory usage by using a string instead of an int or char array is much better (Python Array version will show this result). From this, it can be inferred that using string conversion will yield much better results than using arrays or binary conversion.
-- Determining primality
+- Arithmetic and comparison operations definition: Converting integers to binary form can lead to numerous complications, and converting extremely large binary numbers can be a time-intensive process without the use of pre-existing libraries. Additionally, pre-existing libraries are often unable to handle binary numbers larger than 264. As a result, the binary conversion method is not utilized.
+- Determining primality: 
 The main reason for abstaining from the brute force method (i.e. looping until the square root of the number) is its excessive time consumption. Consequently, we are compelled to rely on primality test techniques. Although these methods may still exhibit some degree of error, the magnitude of such errors is negligible, thereby rendering the resulting solutions still acceptable. For instance, the Miller-Rabin method that i implement entails an error rate < = ~ 0.097%.
