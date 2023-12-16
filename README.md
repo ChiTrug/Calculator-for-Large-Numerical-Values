@@ -2,4 +2,4 @@ This project - Calculator for Large Numerical Values - is OOP implemented in bot
 
 Python version utilizes the multiprocessing library, while C++ version uses pthread. You will need to install pthread, please follow the instructions in the following resource: https://www.youtube.com/watch?v=4GdTcqE0iqg.
 
-***Python and C++ Library Choices***
+# Python and C++ Library Choices
