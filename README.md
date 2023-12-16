@@ -15,6 +15,7 @@ Python version utilizes the multiprocessing library, while C++ version uses pthr
 ## Problems:
 The objective of this task is to construct a class called UIntN that can effectively represent unsigned integers of extremely large magnitude. This requires defining arithmetic and comparison operations that are optimized to handle large integers with speed and efficiency. In addition, a method must be implemented to determine the primality of a given UIntN. Optimize the data structure to prevent the program from slowing down with large numbers.
 ![image](https://github.com/ChiTrug/Calculator-for-Large-Numerical-Values/assets/125122891/8a6830a0-652c-400d-8a62-5b718abf9cfb)
+
 Additional methods include utilizing binary form for computation and comparison, as well as implementing vector<int> or vector<char> in C++. Nevertheless, the outcomes produced were unsatisfactory, leading to the abandonment of these approaches.
 
 Regarding the method for testing primality, it is planned to incorporate AKS and other enhanced techniques based on existing algorithms in the near future, in addition to the Miller-Rabin method, with the aim of achieving superior outcomes.
