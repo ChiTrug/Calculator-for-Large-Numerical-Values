@@ -28,3 +28,15 @@ The string library is a widely used built-in library in both Python and C++, mak
 The main reason for abstaining from the brute force method (i.e. looping until the square root of the number) is its excessive time consumption. Consequently, we are compelled to rely on primality test techniques. Although these methods may still exhibit some degree of error, the magnitude of such errors is negligible, thereby rendering the resulting solutions still acceptable. For instance, the Miller-Rabin method that i implement entails an error rate < = ~ 0.097%.
 
 To sum up, the utilization of multiprocessing in Primality testing has significantly improved the speed of reality, using directly store. The speed is still considerably even with the implementation of vector<long long> to store each element with nine digits per element.
+
+# Results
+![image](https://github.com/ChiTrug/Calculator-for-Large-Numerical-Values/assets/125122891/e2eb1f7d-797a-49d8-9625-817afb76fd27)
+
+Will be updated soon
+
+# References
+BigInt: 
+- https://www.geeksforgeeks.org/bigint-big-integers-in-c-with-example/
+- https://github.com/WHU-Cryptography/BigInteger
+Modular exponentiation
+- https://en.wikipedia.org/wiki/Modular_exponentiation
