@@ -38,5 +38,7 @@ Will be updated soon
 BigInt: 
 - https://www.geeksforgeeks.org/bigint-big-integers-in-c-with-example/
 - https://github.com/WHU-Cryptography/BigInteger
-Modular exponentiation
+
+Modular exponentiation:
 - https://en.wikipedia.org/wiki/Modular_exponentiation
+- https://homepages.math.uic.edu/~leon/cs-mcs401-s08/handouts/fastexp.pdf
