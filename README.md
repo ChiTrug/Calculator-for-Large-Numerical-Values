@@ -35,6 +35,10 @@ To sum up, the utilization of multiprocessing in Primality testing has significa
 Will be updated soon
 
 # References
+Miller rabin test:
+- https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test
+- https://www.geeksforgeeks.org/primality-test-set-3-miller-rabin/
+- https://www.codeproject.com/Articles/60108/BigInteger-Library-2
 BigInt: 
 - https://www.geeksforgeeks.org/bigint-big-integers-in-c-with-example/
 - https://github.com/WHU-Cryptography/BigInteger
